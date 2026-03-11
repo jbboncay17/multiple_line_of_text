@@ -1,7 +1,10 @@
-num1=int(input("Enter the first number:"))
-num2=int(input("Enter the second number:"))
+bold="\033[1m"
+end="\033[0m"
+
+num1=int(input(bold+"Enter the first number:"+end))
+num2=int(input(bold+"Enter the second number:"+end))
 
 if num1 > num2:
-    print("The smaller number is:", num1)
+    print(bold+"The smaller number is:"+end, num1)
 else:
-    print("The smaller number is:", num2)
+    print(bold+"The smaller number is:"+end, num2)
