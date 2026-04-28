@@ -16,4 +16,3 @@ class GWAof20Students:
                     highest_name = name
 
         return highest_name, highest_gwa
-
