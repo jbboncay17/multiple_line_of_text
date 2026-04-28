@@ -1,0 +1,1 @@
+def write_my_life():
